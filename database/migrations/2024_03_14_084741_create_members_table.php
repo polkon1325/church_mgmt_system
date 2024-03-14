@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string("mem_contact");
             $table->date("mem_phy_BD");
             $table->date("mem_sprt_BD");
-            $table->foreignId("mstry_id")->constrained();
+            $table->foreignId("mem_mstry_id")->constrained('ministry_table', 'mstry_id')->indexName('mstry_id');
             $table->timestamps();
         });
     }
