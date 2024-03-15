@@ -9,5 +9,5 @@
 
 	<script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body class="bg-slate-500 min-h-screen pt-12 pb-6 px-2">
+<body class="bg-sky-50 min-h-screen pt-12 pb-6">
 	

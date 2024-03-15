@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* custom border for ease of use in checking css */
+@layer utilities {
+    .border-check {
+        @apply border-2 border-red-900;
+    }
+}
